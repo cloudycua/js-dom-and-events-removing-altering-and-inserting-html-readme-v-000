@@ -22,3 +22,6 @@ for (let i = 0; i < 3; i++) {
 element.appendChild(ul);
 
 ul.style.textAlign = 'left';
+
+// remove second element
+ul.removeChild(ul.querySelector('li:nth-child(2)'));
