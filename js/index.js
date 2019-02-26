@@ -11,7 +11,7 @@ document.body.appendChild(element);
 
 element.style.textAlign = 'center';
 
-let ul = document.createElement{'ul'};
+let ul = document.createElement('ul');
 
 for (let i = 0; i < 3; i++) {
   let li = document.createElement('li');
